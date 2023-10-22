@@ -1,0 +1,116 @@
+header {
+    background-color: #fae3f7;
+    padding: 10px;
+    width: 1fr;
+    height: 13%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+
+nav a {
+    color: #252121;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+body{
+    background: #000000;
+    color: white;
+}
+
+#about img{
+    transition: all .5s ease;
+}
+
+
+.container {
+    padding: 10px 10%;
+}
+
+
+.logo{
+    width: 140px;
+}
+
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff5917;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s; 
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.icons{
+    position: absolute;
+    top: 50%;
+    padding: 0 0;
+    margin-left: -5%;
+    transform: translateY(-50%);
+}
+
+.icons i{
+    display: block;
+    font-size: 40px;
+    margin: 24px 0;
+    color:white;
+    transition: all .55s ease;
+}
+
+
+.icons i:hover{
+    color: #ff5917;
+    transform: translateY(-5px);
+    transition: all .55s ease;
+}
