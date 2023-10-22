@@ -22,7 +22,7 @@
         #header{
             width: 100%;
             height: 100vh;
-            background-image: url(images/1st_photo-removebg-preview1.png);
+            background-image: url(1st_photo-removebg-preview1.png);
             background-size: cover;
             background-position: center;
         }
@@ -72,7 +72,7 @@
         <div class ="container" data-aos="slide-left" data-aos-duration="1200" data-aos-once="true" data-aos-delay="300">
             <div class="row">
                 <div class="col2">
-                    <img data-aos="flip-up" data-aos-duration="1200" data-aos-once="false" data-aos-delay="500"src = "Images/hero.jpeg">
+                    <img data-aos="flip-up" data-aos-duration="1200" data-aos-once="false" data-aos-delay="500"src = "hero.jpeg">
                 </div>
                 <div data-aos="fade-up-right" data-aos-duration="1200" data-aos-once="true" data-aos-delay="700" class="col1" >
                     <h1 data-aos="fade-up-right" data-aos-duration="1200" data-aos-once="true" data-aos-delay="900" class = "sub">About me</h1>
