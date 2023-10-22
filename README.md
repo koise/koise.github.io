@@ -7,8 +7,8 @@
     
     <title>Bart Jason</title>
 
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -39,7 +39,7 @@
         <div class="container">
             
             <nav>
-                <img li data-aos="fade-down-left" data-aos-duration="1200" data-aos-once="true" data-aos-delay="1000"  src = "Images/Black_White_Minimalist_Letter_BJ_Logo__1_-removebg-preview.png" class = "logo">
+                <img li data-aos="fade-down-left" data-aos-duration="1200" data-aos-once="true" data-aos-delay="1000"  src = "Black_White_Minimalist_Letter_BJ_Logo__1_-removebg-preview.png" class = "logo">
                 <ul>
                     <li data-aos="fade-down-left" data-aos-duration="1200" data-aos-once="true" data-aos-delay="1000" ><a href="#">Home</a></li>
                     <li data-aos="fade-down-right" data-aos-duration="1200"  data-aos-once="true"data-aos-delay="1200" ><a href="#about">About</a></li>
@@ -153,7 +153,7 @@
             <h1 class = "sub" data-aos="fade-down-left" data-aos-duration="1200" data-aos-once="true" data-aos-delay="1400"> My Works </h1>
             <div class="work-list">
                 <div class="work" class = "sub" data-aos="fade-down-left" data-aos-duration="1200" data-aos-once="false" data-aos-delay="1800">
-                    <img src="Images/work-1.png" alt="work">
+                    <img src="work-1.png" alt="work">
                     <div class="layer">
                     <h3> A like twitter in C language</h3>
                     <p> A like twitter purposes</p>
@@ -161,7 +161,7 @@
                     </div>
                 </div>
                 <div class="work" class = "sub" data-aos="fade-down-left" data-aos-duration="1200" data-aos-once="false" data-aos-delay="2000" >
-                    <img src="Images/work-2.png" alt="work">
+                    <img src="work-2.png" alt="work">
                     <div class="layer">
                     <h3> My personal porfolio</h3>
                     <p> Show my personal details</p>
@@ -170,7 +170,7 @@
                     
                 </div>
                 <div class="work" class = "sub" data-aos="fade-down-left" data-aos-duration="1200" data-aos-once="false" data-aos-delay="2200" >
-                    <img src="Images/work-3.png" alt="work">
+                    <img src="work-3.png" alt="work">
                     <div class="layer">
                         <h3> ATM a like</h3>
                         <p> a transaction teller in C language</p>
